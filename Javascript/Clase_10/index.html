@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h3 onclick="alert('No manipulen cosas desde aca. Por favor')">
+        Veamos la consola
+      </h3>
+
+      <h3 id="h3Alert">Clickeame a ver que pasa</h3>
+
+      <hr class="hr" />
+
+      <h3>Focus/Blur</h3>
+      <input id="inputBlur" placeholder="Ingresa un dato" type="text" />
+
+      <hr class="hr" />
+
+      <h3>Change</h3>
+      <input type="text" id="inputChange" placeholder="Ingresa una comida" />
+
+      <div class="container">
+        <h3>Mostrar y ocultar con style</h3>
+        <img src="./img/lionel messi.jpg" alt="" id="img" />
+        <div class="btns">
+          <button id="hide">Ocultar</button>
+          <button id="show">Mostrar</button>
+        </div>
+      </div>
+
+      <hr class="hr" />
+      <div class="container">
+        <h3>Mostrar y ocultar una imagen con classlist</h3>
+        <img src="./img/lionel messi.jpg" alt="" id="imgtoggle" />
+        <div class="btns">
+          <button id="toggle">Mostrar/ocultar imagen</button>
+        </div>
+      </div>
+      <hr class="hr" />
+
+      <h3>Evento keyboard</h3>
+      <input type="text" id="keyboard" />
+
+      <hr class="hr" />
+
+      <div class="container">
+        <h3>Contador: <span id="resultado">-</span></h3>
+        <div class="btns">
+          <button class="btn-aumentar">Aumentar</button>
+          <button class="btn-disminuir">Disminuir</button>
+        </div>
+        <button class="btn-reset">Resetear</button>
+      </div>
+
+      <script src="./main.js"></script>
+    </main>
+  </body>
+</html>
